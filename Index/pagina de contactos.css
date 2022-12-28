@@ -1,0 +1,5 @@
+body{background-color: bisque; margin: 15px;}
+h1{background-color: white;font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;}
+div{margin-bottom: 15px;}
+.test{
+    float: right;}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holi aquí puedes contactarnos</title>
+</head>
+<link rel="stylesheet" href="pagina de contactos.css">
+
+<body>
+    <header>
+        <div>
+        <h1 class="titulo">Contactanos</h1>
+        </div>
+    </header>
+    <main>
+        <h2>Rellena tus datos please</h2>
+        <form>
+            <div class="nombre">
+                <label for="nombres">Nombres: </label>
+                <input type="text" name="nombres" id="nombres">
+            </div>
+            <div class="apellidos">
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+            <div class="correo">
+                <label for="email">Correo electrónico: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="fecha">
+                <label for="fecha-nacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fechaNacimiento" id="fecha-nacimiento">
+            </div>
+            <div class="genero">
+                <p>Género: </p>
+                <span class="tab"></span><input type="radio" id="f" name="genero" value="f">
+                <label for="f">Femenino</label>
+                <input type="radio" id="m" name="genero" value="m">
+                <label for="m">Masculino</label>
+            </div>
+
+            <div class="estatura">
+                <label for="estatura">Estatura: </label>
+                <input class="w-50" type="number" name="estatura" id="estatura" step="any"> metros
+            </div>
+            <div class="peso">
+                <label for="peso">Peso: </label>
+                <input class="w-50" type="number" name="peso" id="q" step="any"> kg
+            </div>
+            <div class="deporte">
+                <input type="checkbox" id="deporte" name="deporte">
+                <label for="deporte">Realizo deporte regularmente.</label>
+            </div>
+            <div class="enviar">
+                <button type="button" id="enviar" onclick="datos()">Enviar</button>
+            </div>
+
+        </form>
+        <a href="../Index.html"><img class="test"
+            src="https://assets.stickpng.com/thumbs/5a9c10009fc609199d0ff076.png" alt="puqui"
+            style="width: 150px; height: 150px;"></a>
+            <br><br><br><br><br><br><br><b><b></b></b>
+    </main>
+
+    <footer>
+       Creado por: &copy;maryangela_alvisღ
+    </footer>
+
+    <script src="pagina de contactos.js"></script>
+</body>
+
+</html>
